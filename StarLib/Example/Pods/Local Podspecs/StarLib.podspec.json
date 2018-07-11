@@ -19,7 +19,10 @@
     "ios": "8.0"
   },
   "prefix_header_contents": "#import \"StarLibDefine.h\"",
-  "source_files": "StarLib/Classes/**/*",
+  "source_files": [
+    "StarLib/Classes/**/*",
+    "StarLib/Classes/**/*.{h,m}"
+  ],
   "frameworks": [
     "UIKit",
     "MapKit"
@@ -46,5 +49,8 @@
     "Masonry": [
 
     ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
   }
 }

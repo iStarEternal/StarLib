@@ -10,7 +10,6 @@
 #import "WexRichString.h"
 
 
-
 static void *WexLinkCellFrameChanged = &WexLinkCellFrameChanged;
 
 @interface WexLinkCell()

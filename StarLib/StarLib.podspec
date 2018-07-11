@@ -31,7 +31,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.prefix_header_contents = '#import "StarLibDefine.h"'
-  s.source_files = 'StarLib/Classes/**/*'
+  s.source_files = 'StarLib/Classes/**/*', 'StarLib/Classes/**/*.{h,m}'
+
   #s.public_header_files = 'StarLib/Classes/StarLib.h'
 
   # s.resource_bundles = {
@@ -47,5 +48,6 @@ Pod::Spec.new do |s|
   s.dependency 'NJKWebViewProgress'
   s.dependency 'HMSegmentedControl'
   s.dependency 'Masonry'
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 
 end
