@@ -1,6 +1,10 @@
+platform :ios, '8.0'
 use_frameworks!
 
+install! 'cocoapods', :deterministic_uuids => false
+
 target 'StarLib_Example' do
+    
   pod 'StarLib', :path => '../'
 
   target 'StarLib_Tests' do
@@ -9,3 +13,5 @@ target 'StarLib_Example' do
     pod 'Kiwi'
   end
 end
+
+

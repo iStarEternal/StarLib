@@ -2,7 +2,7 @@
   "name": "StarLib",
   "version": "0.1.0",
   "summary": "A short description of StarLib.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "这是我的私人类库",
   "homepage": "https://github.com/iStarEternal/StarLib",
   "license": {
     "type": "MIT",
@@ -18,5 +18,33 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "StarLib/Classes/**/*"
+  "prefix_header_contents": "#import \"StarLibDefine.h\"",
+  "source_files": "StarLib/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "JSONModel": [
+
+    ],
+    "YYText": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "NJKWebViewProgress": [
+
+    ],
+    "HMSegmentedControl": [
+
+    ],
+    "Masonry": [
+
+    ]
+  }
 }

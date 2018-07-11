@@ -30,13 +30,22 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
+  s.prefix_header_contents = '#import "StarLibDefine.h"'
   s.source_files = 'StarLib/Classes/**/*'
-  
+  #s.public_header_files = 'StarLib/Classes/StarLib.h'
+
   # s.resource_bundles = {
   #   'StarLib' => ['StarLib/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  
   s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
+  s.dependency 'JSONModel'
+  s.dependency 'YYText'
+  s.dependency 'MJRefresh'
+  s.dependency 'NJKWebViewProgress'
+  s.dependency 'HMSegmentedControl'
+  s.dependency 'Masonry'
+
 end

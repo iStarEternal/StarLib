@@ -7,6 +7,10 @@
 //
 
 #import "StarViewController.h"
+//#import <Logger.h>
+//#import "Logger.h"
+//#import <StarLib/Logger.h>
+#import "StarLib.h"
 
 @interface StarViewController ()
 
@@ -17,6 +21,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    LogError(@"");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,6 +1,38 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - HMSegmentedControl (1.5.5)
+  - JSONModel (1.7.0)
   - Kiwi (3.0.0)
-  - StarLib (0.1.0)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - StarLib (0.1.0):
+    - AFNetworking
+    - HMSegmentedControl
+    - JSONModel
+    - Masonry
+    - MJRefresh
+    - NJKWebViewProgress
+    - YYText
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - Kiwi
@@ -11,9 +43,16 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
-  StarLib: 3358be2cac9827d14fcd5f15af0850dd05bccbe2
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  StarLib: 581ef6cb1eb2d7c383c6d9d0b789d17c8876f902
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: b59411b1f52689ec3284dbf6e23e857d137b60f1
+PODFILE CHECKSUM: 96a2dc5e1910e7d8ca78b1eb9a9bde7f2864c8a1
 
 COCOAPODS: 1.4.0.beta.2
