@@ -24,7 +24,7 @@ PODS:
     - NJKWebViewProgress/ProgressView (= 0.2.3)
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
-  - StarLib (0.1.0):
+  - StarLib (0.2.0):
     - AFNetworking
     - HMSegmentedControl
     - JSONModel
@@ -50,7 +50,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
-  StarLib: 4d7f929b2abd2c6c885860d396bb48495666f7d5
+  StarLib: 0de254bffcefbde90aec1ab10f5cd3edb541abd1
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
 PODFILE CHECKSUM: 96a2dc5e1910e7d8ca78b1eb9a9bde7f2864c8a1
