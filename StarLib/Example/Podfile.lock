@@ -1,0 +1,19 @@
+PODS:
+  - Kiwi (3.0.0)
+  - StarLib (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - StarLib (from `../`)
+
+EXTERNAL SOURCES:
+  StarLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  StarLib: 3358be2cac9827d14fcd5f15af0850dd05bccbe2
+
+PODFILE CHECKSUM: b59411b1f52689ec3284dbf6e23e857d137b60f1
+
+COCOAPODS: 1.4.0.beta.2

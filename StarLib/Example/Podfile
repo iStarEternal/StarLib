@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'StarLib_Example' do
+  pod 'StarLib', :path => '../'
+
+  target 'StarLib_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end

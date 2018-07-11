@@ -1,0 +1,6 @@
+framework module StarLib {
+  umbrella header "StarLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
