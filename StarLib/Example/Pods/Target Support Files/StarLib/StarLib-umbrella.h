@@ -41,6 +41,7 @@
 #import "NSArray+Sudoku.h"
 #import "UIView+Forbearance.h"
 #import "View+StarShorthandAdditions.h"
+#import "StarLibExtension.h"
 #import "SVIndefiniteAnimatedView.h"
 #import "SVProgressAnimatedView.h"
 #import "SVProgressHUD.h"
